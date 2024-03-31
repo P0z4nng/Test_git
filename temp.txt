@@ -1,1 +1,22 @@
 test git repo and github.
+
+1. git init
+2. git status
+	#check all the files from git repo
+3. git add name-of-file
+	#after this, you can check that again in git status
+4. git commit -a -m "your message"
+	#finally, add it to local repo, for more options: git commit -h
+
+# TRY TO PUSH IN GITHUB
+1. git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+	#set your personal info to git
+2. git remote add origin git@github.com:yourusename/yourfile.git
+	#add your file remotelly
+3. git branch -M main
+	#if it's error, try to set your branch as a *main
+4. git push -u origin main
+	#push your git file from repo to github with *origin as a firstpoint
+	# *origin can be set diffrent name
+
